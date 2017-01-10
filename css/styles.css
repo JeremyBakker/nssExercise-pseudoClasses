@@ -1,0 +1,13 @@
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.inline {
+	display: block;
+	border: solid 1px black;
+}
+
+article.n-child section:nth-child(2n+3) {
+	border: solid 1px black;
+}
